@@ -4089,3 +4089,109 @@
    (new_ar_console TRUE)
    (downloaded TRUE)
 )
+(upsidedown
+   (name "Upside Down")
+   (song_id 1860001)
+   (context 0)
+   (song
+     (name songs/upsidedown/upsidedown)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 2)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Jack Johnson Approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium)
+   (preview 9633 66113)
+   (rank
+      (drum 166)
+      (guitar 175)
+      (bass 165)
+      (vocals 204)
+      (band 190)
+   )
+   (venue dreamscape)
+   
+   (date_released "2006-01-01") 
+   (date_recorded "2005-04-26")
+   (album_name "Sing-A-Longs and Lullabies")
+   (album_track_number 1)
+   (format 0)
+   (version 20)
+   (game_origin beatles)
+   (rating 1)
+   (guide_pitch_volume -3.0)
+   (singer george)
+   (songtype acoustic)
+   (downloaded TRUE)
+   (new_ar_console TRUE)
+)
+(ringostheme
+   (name "Ringo's Theme (This Boy)")
+   (song_id 6690030)
+   (context 0)
+   (song
+     (name songs/ringostheme/ringostheme)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 0)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Giles didn't approve
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium)
+   (preview 42000 72000)
+   (rank
+      (drum 113)
+      (guitar 280)
+      (bass 248)
+      (vocals 0)
+      (band 273)
+   )
+   (venue dreamscape) ; if you don't know venue yet use dreamscape
+   (date_released "1964-07-01") ; use 2009-01-01 as default if unknown
+   (date_recorded "1964-07-01") ; use 2009-01-01 as default if unknown
+   (album_name "A Hard Day's Night Sound Track")
+   (album_track_number 10)
+   (format 0)
+   (version 20)               ; Only modified by coders!
+   (game_origin beatles)
+   (rating 1)
+   (guide_pitch_volume -3.0)
+   (singer john)
+   (songtype electric acoustic)
+   (downloaded TRUE)
+)
