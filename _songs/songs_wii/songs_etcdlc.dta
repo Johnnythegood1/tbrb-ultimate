@@ -4195,3 +4195,52 @@
    (songtype electric acoustic)
    (downloaded TRUE)
 )
+(nomorefanmail
+   (name "No More Fan Mail")
+   (song_id 9470002)
+   (context 0)
+   (song
+     (name   songs/nomorefanmail/nomorefanmail)
+     (tracks
+        ((vocals (0 1))
+        )
+     )   
+     (vocal_parts 1)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Amog Approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium) ; SET T0 kTempoMedium, kTempoFast, OR kTempoSlow
+   (preview 9633 66113)
+   (rank
+      (drum 0)
+      (guitar 0)
+      (bass 0)
+      (vocals 1)
+      (band 1)
+   )
+   (venue dreamscape)
+   
+   (date_released "2008-10-13") ; YEAR-MONTH-DAY
+   (date_recorded "2008-10-13") ; YEAR-MONTH-DAY
+   (format 0)
+   (version 20)
+   (game_origin beatles)
+   (rating 1)
+   (guide_pitch_volume -3.0)
+   (singer ringo) ; SET TO paul, john, george, OR ringo
+   (songtype solo) ; SET TO piano, acoustic, electric, OR solo
+   (downloaded TRUE)
+   (new_ar_console TRUE) ; ONLY USE IF USING "emi_tg_mixer" IN SONG.JSON
+)
