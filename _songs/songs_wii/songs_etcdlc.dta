@@ -4514,3 +4514,168 @@
    (songtype acoustic) ; SET TO piano, acoustic, electric, OR solo
    (downloaded TRUE)
 )
+(3sand7s
+   (name "3's & 7's")
+   (song_id 257409)
+   (context 0)
+   (song
+     (name   songs/3sand7s/3sand7s)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 3)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Steamian Approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium) ; SET T0 kTempoMedium, kTempoFast, OR kTempoSlow
+   (preview 9633 66113)
+   (rank
+      (drum 175)
+      (guitar 300)
+      (bass 250)
+      (vocals 230)
+      (band 300)
+   )
+   (venue shea)
+   
+   (date_released "2007-06-12") ; YEAR-MONTH-DAY
+   (date_recorded "2006-07-12") ; YEAR-MONTH-DAY
+   (album_name "Era Vulgaris") ; DELETE IF SINGLE
+   (album_track_number 8) ; DELETE IF SINGLE
+   (format 0)
+   (version 20)
+   (game_origin beatles)
+   (rating 1)
+   (artist "Queens of the Stone Age")
+   (author "Harmonix, Kalam J. Shellaby")
+   (guide_pitch_volume -3.0)
+   (singer john) ; SET TO paul, john, george, OR ringo
+   (songtype acoustic piano) ; SET TO piano, acoustic, electric, OR solo
+   (downloaded TRUE)
+)
+(gowiththeflow
+   (name "Go With the Flow")
+   (song_id 2578001)
+   (context 0)
+   (song
+     (name   songs/gowiththeflow/gowiththeflow)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 3)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Steamian Approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoFast) ; SET T0 kTempoMedium, kTempoFast, OR kTempoSlow
+   (preview 9633 66113)
+   (rank
+      (drum 316)
+      (guitar 210)
+      (bass 230)
+      (vocals 50)
+      (band 300)
+   )
+   (venue dreamscape)
+   
+   (date_released "2002-08-27") ; YEAR-MONTH-DAY
+   (date_recorded "2002-07-16") ; YEAR-MONTH-DAY
+   (album_name "Songs For the Deaf") ; DELETE IF SINGLE
+   (album_track_number 9) ; DELETE IF SINGLE
+   (format 0)
+   (version 20)
+   (game_origin beatles)
+   (artist "Queens of the Stone Age")
+   (author "Harmonix, Kalam J. Shellaby")
+   (rating 1)
+   (singer john) ; SET TO paul, john, george, OR ringo
+   (songtype electric piano) ; SET TO piano, acoustic, electric, OR solo
+   (downloaded TRUE)
+)
+(vampyre
+   (name "The Vampyre of Time and Memory")
+   (song_id 2575050)
+   (context 0)
+   (song
+     (name songs/vampyre/vampyre)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 2)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Steamian Approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium) ; SET T0 kTempoMedium, kTempoFast, OR kTempoSlow
+   (preview 9633 66113)
+   (rank
+      (drum 152)
+      (guitar 300)
+      (bass 270)
+      (vocals 230)
+      (band 247)
+   )
+   (venue dreamscape)
+   
+   (date_released "2013-06-03") ; YEAR-MONTH-DAY
+   (date_recorded "2012-08-28") ; YEAR-MONTH-DAY
+   (album_name "...Like Clockwork") ; DELETE IF SINGLE
+   (album_track_number 3) ; DELETE IF SINGLE
+   (format 0)
+   (version 20)
+   (game_origin beatles)
+   (artist "Queens of the Stone Age")
+   (author "MrPrezident, Kalam J. Shellaby")
+   (rating 1)
+   (guide_pitch_volume -3.0)
+   (singer john) ; SET TO paul, john, george, OR ringo
+   (songtype acoustic piano) ; SET TO piano, acoustic, electric, OR solo
+   (downloaded TRUE)
+   (new_ar_console TRUE) ; ONLY USE IF USING "emi_tg_mixer" IN SONG.JSON
+)
