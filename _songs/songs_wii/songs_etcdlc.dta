@@ -4946,3 +4946,112 @@
    (songtype electric)
    (downloaded TRUE)
 )
+(redhotsavior
+   (name "Savior")
+   (song_id 6690015)
+   (context 0)
+   (song
+     (name  songs/redhotsavior/redhotsavior)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 2)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 ))
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium)
+   (preview 65764 83424)
+   (rank
+      (drum 176)
+      (guitar 355)
+      (bass 280)
+      (vocals 300)
+      (band 314)
+   )
+   (venue budokan) ; if you don't know venue yet use dreamscape
+   
+   (date_released "1999-01-01") ; use 2009-01-01 as default if unknown
+   (date_recorded "1999-06-08") ; use 2009-01-01 as default if unknown
+   (album_name "Californication")
+   (album_track_number 12)
+   (format 0)
+   (version 20)               ; Only modified by coders!
+   (game_origin beatles)
+   (rating 1)
+   (guide_pitch_volume -3.0)
+   (singer john)
+   (songtype electric)
+   (downloaded TRUE)
+)
+(jonas
+   (name "My Name Is Jonas")
+   (song_id 6840002)
+   (context 0)
+   (song
+     (name songs/jonas/jonas)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 3)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Prod approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium)
+   (preview 30638 60046)
+   (rank
+      (drum 166)
+      (guitar 320)
+      (bass 220)
+      (vocals 250)
+      (band 270)
+   )
+   (venue shea) ; if you don't know venue yet use dreamscape
+   
+   (date_released "1994-09-07") ; use 2009-01-01 as default if unknown
+   (date_recorded "1994-07-23") ; use 2009-01-01 as default if unknown
+   (album_name "Weezer (The Blue Album)")
+   (album_track_number 1)
+
+   (format 0)
+   (version 20)               ; Only modified by coders!
+   (game_origin beatles)
+   (rating 1)
+   ('tuning_offset_cents' -30)
+   (guide_pitch_volume -3.0)
+   (singer paul)
+   (songtype acoustic electric)
+   (downloaded TRUE)
+   (new_ar_console TRUE)
+)
