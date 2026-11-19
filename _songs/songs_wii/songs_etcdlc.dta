@@ -4462,3 +4462,55 @@
    (downloaded TRUE)
    (new_ar_console TRUE)
 )
+(johnlittlegirl
+   (name "Little Girl (John's Demo)")
+   (song_id 2572326)
+   (context 0)
+   (song
+     (name  songs/johnlittlegirl/johnlittlegirl)
+     (tracks
+        ((guitar (0 1))
+		 (vocals (2 3))
+        )
+     )   
+     (vocal_parts 1)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Steamian Approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium) ; SET T0 kTempoMedium, kTempoFast, OR kTempoSlow
+   (preview 9633 66113)
+   (rank
+      (drum 0)
+      (guitar 175)
+      (bass 0)
+      (vocals 200)
+      (band 100)
+   )
+   (venue dreamscape)
+   
+   (date_released "2026-10-02") ; YEAR-MONTH-DAY
+   (date_recorded "1965-08-20") ; YEAR-MONTH-DAY
+   (album_name "Rubber Soul (Super Deluxe)") ; DELETE IF SINGLE
+   (album_track_number 26) ; DELETE IF SINGLE
+   (format 0)
+   (author "Kalam J. Shellaby")
+   (version 20)
+   (game_origin beatles)
+   (rating 2)
+   (guide_pitch_volume -3.0)
+   (singer john) ; SET TO paul, john, george, OR ringo
+   (songtype acoustic) ; SET TO piano, acoustic, electric, OR solo
+   (downloaded TRUE)
+)
