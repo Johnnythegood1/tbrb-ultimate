@@ -5114,7 +5114,7 @@
    (song_id 9270010)
    (context 0)
    (song
-     (name dlc/r9JE/433/content/songs/firstofmay01/firstofmay01)
+     (name songs/firstofmay01/firstofmay01)
      (tracks
         ((drum (0 1))
          (bass (2 3))
