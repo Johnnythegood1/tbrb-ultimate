@@ -4731,3 +4731,59 @@
    (new_ar_console TRUE)
    (downloaded TRUE )
 )
+(yomp
+   (name "Yomp")
+   (song_id 2572008)
+   (context 0)
+   (song
+     (name songs/yomp/yomp)
+     (tracks
+        ((drum (0 1))
+         (bass (2 3))
+         (guitar (4 5))
+		 (vocals (6 7))
+        )
+     )   
+     (vocal_parts 2)
+    ;                DRUMS       BASS      GUITAR     VOCALS     TRACKS
+     (pans        ( -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0  -1.0  1.0 ))
+     (vols        (  0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0   0.0  0.0 )) ; Steamian Approved
+     (cores       (  -1   -1    -1   -1     1    1    -1   -1    -1   -1  ))
+     (drum_solo
+        (seqs (kick.cue snare.cue tom1.cue tom2.cue crash.cue))
+     )
+     (drum_freestyle
+        (seqs (kick.cue snare.cue hat.cue ride.cue crash.cue))
+     )
+     (mute_volume -14.0)
+     (mute_volume_vocals -12.0)
+     (sfx_level -3.0)
+   )
+   (song_scroll_speed 2300)
+   (anim_tempo kTempoMedium) ; SET T0 kTempoMedium, kTempoFast, OR kTempoSlow
+   (preview 9633 66113)
+   (rank
+      (drum 176)
+      (guitar 210)
+      (bass 220)
+      (vocals 298)
+      (band 244)
+   )
+   (venue dreamscape)
+   
+   (date_released "2008-08-01") ; YEAR-MONTH-DAY
+   (date_recorded "2008-06-16") ; YEAR-MONTH-DAY
+   (album_name "You Are Here") ; DELETE IF SINGLE
+   (album_track_number 6) ; DELETE IF SINGLE
+   (artist "thenewno2")
+   (author "Harmonix, Kalam J. Shellaby")
+   (format 0)
+   (version 20)
+   (game_origin beatles)
+   (rating 1)
+   (guide_pitch_volume -3.0)
+   (singer george) ; SET TO paul, john, george, OR ringo
+   (songtype electric) ; SET TO piano, acoustic, electric, OR solo
+   (downloaded TRUE)
+   (new_ar_console TRUE) ; ONLY USE IF USING "emi_tg_mixer" IN SONG.JSON
+)
